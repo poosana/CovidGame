@@ -1,21 +1,15 @@
 package Model;
 
-public class Antibody {
+public antibody(String name,String type, String geneticCode){
+    super(name,type,geneticCode);
 
-    public int x,y;     //ตำแหน่ง
-    public int health,damage;
-    public int cost;
 
-    public Antibody(){
-        this.health = health;
-        this.damage = damage;
-    }
+    switch (type) {
+        case "A1" ->{
+            this.maxHealth = config.A1Health;
+            this.attackDamage = config.A1Damage;
+            this.attackRange = config.A1AttackRange;
 
-    public void attack(){
-
-    }
-
-    public void defense(){
-
+}
     }
 }
