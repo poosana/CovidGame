@@ -12,4 +12,9 @@ public antibody(String name,String type, String geneticCode){
 
 }
     }
+    case "A2" ->{
+        this.maxHealth = config.A2Health;
+        this.attackDamage = config.A2Damage;
+        this.attackRange = config.A2AttackRange;
+
 }
